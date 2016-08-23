@@ -1,0 +1,33 @@
+/* Pon tu código css aqui */
+.contenedor {
+	border:1px solid black;
+	display: block;
+	
+}
+.caja1 {
+	width: 25%;
+	height: 100px;
+	background-color: yellow;
+	float:left;
+
+}
+.caja2 {
+	width: 25%;
+	height: 100px;
+	background-color: #11B1F1;
+	float:left;
+	
+}
+.caja3 {
+	width: 25%;
+	height:100px;
+	background-color:#DC56A0;
+	float:left;
+}
+.contenedor:before, .contenedor:after {
+   content: " ";
+   display: table;
+}
+.contenedor:after {
+   clear: both;
+}

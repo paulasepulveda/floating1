@@ -1,0 +1,25 @@
+/* Pon tu código css aqui */
+.contenedor {
+	border:1px solid black;
+	display: block;
+	
+}
+.caja1 {
+	width: 25%;
+	height: 100px;
+	background-color: yellow;
+	float:right;
+
+}
+.caja2 {
+	width: 25%;
+	height: 100px;
+	background-color: #11B1F1;
+	float:right;
+}
+.caja3 {
+	width: 25%;
+	height:100px;
+	background-color:#DC56A0;
+	float: right;
+}
